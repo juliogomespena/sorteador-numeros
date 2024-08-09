@@ -13,6 +13,10 @@ function sortear()
     {
         alert("Preencha todos os campos!");
     }
+    else if(numero2 < numero1)
+    {
+        alert("Valor 'até' menor que valor 'de'. Corrija por favor.");
+    }
     else if((numero2 - numero1) < qtdNumeros)
     {
         alert("Diminua a quantidade de números ou aumente o intervalo.");
