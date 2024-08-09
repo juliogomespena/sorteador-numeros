@@ -13,7 +13,7 @@ function sortear()
     {
         alert("Preencha todos os campos!");
     }
-    else if(numero2 < numero1)
+    else if(numero2 <= numero1)
     {
         alert("Valor 'até' menor que valor 'de'. Corrija por favor.");
     }
